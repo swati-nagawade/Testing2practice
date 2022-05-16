@@ -2,44 +2,20 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-08T21:18:09 CDT" name="Default suite" finished-at="2022-05-08T21:18:09 CDT" duration-ms="48">
+  <suite started-at="2022-05-11T21:19:46 CDT" name="Default suite" finished-at="2022-05-11T21:20:00 CDT" duration-ms="14718">
     <groups>
     </groups>
-    <test started-at="2022-05-08T21:18:09 CDT" name="Default test" finished-at="2022-05-08T21:18:09 CDT" duration-ms="48">
-      <class name="Testing.LoginTest">
-        <test-method is-config="true" signature="loginintoApplication()[pri:0, instance:Testing.LoginTest@f5acb9d]" started-at="2022-05-08T21:18:09 CDT" name="loginintoApplication" finished-at="2022-05-08T21:18:09 CDT" duration-ms="7" status="PASS">
+    <test started-at="2022-05-11T21:19:46 CDT" name="Default test" finished-at="2022-05-11T21:20:00 CDT" duration-ms="14718">
+      <class name="Testing.parallalTestng">
+        <test-method signature="Test1()[pri:0, instance:Testing.parallalTestng@3c73951]" started-at="2022-05-11T21:19:46 CDT" name="Test1" finished-at="2022-05-11T21:19:56 CDT" duration-ms="9979" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginintoApplication -->
-        <test-method is-config="true" signature="connectToDB()[pri:0, instance:Testing.LoginTest@f5acb9d]" started-at="2022-05-08T21:18:09 CDT" name="connectToDB" finished-at="2022-05-08T21:18:09 CDT" duration-ms="1" status="PASS">
+        </test-method> <!-- Test1 -->
+        <test-method signature="Test2()[pri:0, instance:Testing.parallalTestng@3c73951]" started-at="2022-05-11T21:19:56 CDT" name="Test2" finished-at="2022-05-11T21:20:00 CDT" duration-ms="4714" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- connectToDB -->
-        <test-method signature="LoginTest()[pri:1, instance:Testing.LoginTest@f5acb9d]" started-at="2022-05-08T21:18:09 CDT" name="LoginTest" description="This is a login test" finished-at="2022-05-08T21:18:09 CDT" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="disconnectedFromDB()[pri:0, instance:Testing.LoginTest@f5acb9d]" started-at="2022-05-08T21:18:09 CDT" name="disconnectedFromDB" finished-at="2022-05-08T21:18:09 CDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- disconnectedFromDB -->
-        <test-method is-config="true" signature="connectToDB()[pri:0, instance:Testing.LoginTest@f5acb9d]" started-at="2022-05-08T21:18:09 CDT" name="connectToDB" finished-at="2022-05-08T21:18:09 CDT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- connectToDB -->
-        <test-method signature="LogoutTest()[pri:2, instance:Testing.LoginTest@f5acb9d]" started-at="2022-05-08T21:18:09 CDT" name="LogoutTest" description="This is a logout test" finished-at="2022-05-08T21:18:09 CDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LogoutTest -->
-        <test-method is-config="true" signature="disconnectedFromDB()[pri:0, instance:Testing.LoginTest@f5acb9d]" started-at="2022-05-08T21:18:09 CDT" name="disconnectedFromDB" finished-at="2022-05-08T21:18:09 CDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- disconnectedFromDB -->
-        <test-method is-config="true" signature="logoutfromApplication()[pri:0, instance:Testing.LoginTest@f5acb9d]" started-at="2022-05-08T21:18:09 CDT" name="logoutfromApplication" finished-at="2022-05-08T21:18:09 CDT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logoutfromApplication -->
-      </class> <!-- Testing.LoginTest -->
+        </test-method> <!-- Test2 -->
+      </class> <!-- Testing.parallalTestng -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

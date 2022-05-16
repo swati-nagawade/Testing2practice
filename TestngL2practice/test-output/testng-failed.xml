@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Testing.skipDemoTest">
+      <class name="Testing.parallalTestng">
         <methods>
-          <include name="skipTest2"/>
+          <include name="Test2"/>
         </methods>
-      </class> <!-- Testing.skipDemoTest -->
+      </class> <!-- Testing.parallalTestng -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
